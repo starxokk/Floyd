@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+        border-right:1px solid #bbb;
+      }
+      
+      li:last-child {
+        border-right: none;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 183px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #5a5a5a;
+      }
+      
+      .active {
+        background-color: #862222;
+      }
+      
+     
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 110%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("floyd1.png"); }
+.img2 { background-image: url("3.png"); }
+.img3 { background-image: url("4.png"); }
+.img4 { background-image: url("Our\ Work.png"); }
+.img5 { background-image: url("5.png"); }
+.img6 { background-image: url("6.png"); }
+.img7 { background-image: url("Services.png"); }
+.img8 { background-image: url("Home.png"); }
+.img9 { background-image: url("lastpage.png"); }
+
+
+</style>
+</head>
+<body>
+
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#dogs">dogs</a></li>
+        <li><a href="#achievement">achievement</a></li>
+        <li><a href="#arts">arts</a></li>
+        <li><a href="#arts">𓆝 𓆟 𓆞 𓆝 𓆟</a></li>
+      </ul>
+    
+
+<div class="bg-image img1"></div>
+<div class="bg-image img2" id="about"></div>
+<div class="bg-image img3" id="dogs"></div>
+<div class="bg-image img4" id="achievement"></div>
+<div class="bg-image img5" ></div>
+<div class="bg-image img6"></div>
+<div class="bg-image img7" id="arts"></div>
+<div class="bg-image img8"></div> 
+<div class="bg-image img9"><section class="contact section" id="contact">
+
+    <div class="contact__container container grid">
+      <div>
+        <div class="contact__information">
+          <i class="uil uil-calling contact__icon"></i>
+
+          <div>
+            <header class="contact__title" id="contact-title">Contact Me</header>
+            <span class="contact__subtitle"
+              ><a href="tel:6362243314"></a>09163951218</span
+            >
+          </div>
+        </div>
+
+        <div class="contact__information">
+          <i class="uil uil-envelope-minus contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Email</h3>
+            <span class="contact__subtitle"
+              >escuadrafloyd1@gmail.com</span
+            >
+          </div>
+        </div>
+
+        <div class="contact__information">
+          <i class="uil uil-map-marker contact__icon"></i>
+
+          <div>
+            <h3 class="contact__title">Location</h3>
+            <span class="contact__subtitle"
+              >Ugong, Valenzuela, Philippines</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <form action="" class="contact__form grid">
+        <div class="contact__inputs grid">
+          <div class="contact__content">
+            <label for="" class="content__label">Name</label>
+            <input type="text" class="contact__input" />
+          </div>
+
+          <div class="contact__content">
+            <label for="" class="content__label">Email</label>
+            <input type="Email" class="contact__input" />
+          </div>
+        </div>
+
+        <div class="contact__content">
+          <label for="" class="content__label">Message</label>
+          <textarea
+            name=""
+            id=""
+            cols="0"
+            rows="7"
+            class="contact__input"
+          ></textarea>
+        </div>
+
+        <div>
+          <a
+            href=" mailto: rkamathvenkatesh@gmail.com?subject=Testing out mailto! &body=This is only a test!"
+            class="button button--flex"
+          >
+            Send Message
+            <i class="uil uil-message button__icon"></i>
+          </a>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+</div> 
+
+</body>
+</html>
